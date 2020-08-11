@@ -12,8 +12,15 @@ namespace VariablesCS
             Console.WriteLine("Hi, my name is" + " " + fullName + "the time is" + " " + today + " " + "I drink" + " " + numberOfCupsOfCoffee + " " + "cups of coffee per day!");
             Console.WriteLine("What is your name?");
             var userName = Console.ReadLine();
+            if (userName == "Alice")
+            {
+                Console.WriteLine("Welcome to Wonderland, Alice! Were all a bit mad here!");
+            }
+            else
+            {
+                Console.WriteLine("Nice to meet you," + " " + userName);
+            }
             Console.WriteLine();
-            Console.WriteLine("Nice to meet you," + " " + userName);
             Console.WriteLine();
             Console.WriteLine("Please input a Number");
             Console.WriteLine();
